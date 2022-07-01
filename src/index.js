@@ -29,8 +29,18 @@ ReactDOM.render(
 );
 */
 
+const name = 'Niveditha';
+var dynamic = year;
+
 ReactDOM.render(
-<
-
-
-)
+  <div>
+    <p>created by {name}</p>
+    <div>
+      <form class="year" method="post">
+        <input name="Enter" type="submit"></input>
+      </form>
+      <p> copyright {dynamic}</p>
+    </div>
+  </div>,
+  document.getElementById('root')
+);
