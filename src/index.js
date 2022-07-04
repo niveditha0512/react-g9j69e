@@ -1,21 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './style.css';
 
-/*
 ReactDOM.render(
   <div>
-    <h1>My favourite Super Heroes!</h1>
-    <h3>
-      <ul>
-        <li>Spider-Man</li>
-        <li>Thor</li>
-        <li>Iorn-Man</li>
-      </ul>
-    </h3>
+    <h1 className="heading" contentEditable="true" spellCheck="false">
+      {' '}
+      Super Heroes!
+    </h1>
+    <div>
+      <div class="container">
+        <img src="https://cdn.pocket-lint.com/r/s/970x/assets/images/159643-tv-news-spider-man-no-way-home-image1-dryautoefj-jpg.webp" />
+        <div class="overlay">
+          <div class="text">Spider-Man</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <img src="https://www.comingsoon.net/assets/uploads/2022/04/infinity-war-768x429.jpg" />
+        <div class="overlay">
+          <div class="text">Iorn-Man</div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="https://www.indiewire.com/wp-content/uploads/2019/04/D5Up3sIW0AEMM3R.jpg?resize=800,450" />
+        <div class="overlay">
+          <div class="text">Thor</div>
+        </div>
+      </div>
+    </div>
   </div>,
   document.getElementById('root')
 );
-*/
+
 /*
 const fname = 'Niveditha',
   lname = 'AT',
@@ -28,19 +45,26 @@ ReactDOM.render(
   document.getElementById('root')
 );
 */
-
+/*
 const name = 'Niveditha';
-var dynamic = year;
+var date = Date();
+var year = new Date().getFullYear();
+var month = new Date().getMonth();
 
 ReactDOM.render(
   <div>
-    <p>created by {name}</p>
-    <div>
-      <form class="year" method="post">
-        <input name="Enter" type="submit"></input>
-      </form>
-      <p> copyright {dynamic}</p>
-    </div>
+    <p>
+      <strong>
+        the main function from which dynamic year is derieved by using the method - getFullYear() ."{date}"
+      </strong>
+    </p>
+    <p>
+      created by {name} 
+    </p>
+    <p>
+      copyright@ {year}
+    </p>
   </div>,
   document.getElementById('root')
 );
+*/
