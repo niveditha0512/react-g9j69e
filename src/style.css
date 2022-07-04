@@ -25,7 +25,9 @@ img {
 
 .container {
   position: relative;
-  width: 50%;
+  float: left;
+  width: 32.4%;
+  padding: 5px;
 }
 
 .overlay {
@@ -54,4 +56,12 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+.parent {
+  clear: both;
+  display: table;
+}
+
+#image2 {
 }

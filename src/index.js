@@ -8,21 +8,21 @@ ReactDOM.render(
       {' '}
       Super Heroes!
     </h1>
-    <div>
-      <div class="container">
+    <div class="parent">
+      <div class="container" id="image1">
         <img src="https://cdn.pocket-lint.com/r/s/970x/assets/images/159643-tv-news-spider-man-no-way-home-image1-dryautoefj-jpg.webp" />
         <div class="overlay">
           <div class="text">Spider-Man</div>
         </div>
       </div>
 
-      <div class="container">
+      <div class="container" id="image2">
         <img src="https://www.comingsoon.net/assets/uploads/2022/04/infinity-war-768x429.jpg" />
         <div class="overlay">
           <div class="text">Iorn-Man</div>
         </div>
       </div>
-      <div class="container">
+      <div class="container" id="image3">
         <img src="https://www.indiewire.com/wp-content/uploads/2019/04/D5Up3sIW0AEMM3R.jpg?resize=800,450" />
         <div class="overlay">
           <div class="text">Thor</div>
